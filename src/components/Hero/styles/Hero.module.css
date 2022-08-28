@@ -54,7 +54,6 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-around;
-    padding-left: 2rem;
 }
 
 .hero2Text1 {
@@ -133,5 +132,9 @@
         content: '';
         border-top: 1px solid #fff;
         padding-bottom: calc(10px + 1vmin);
+    }
+
+    .hero2TextContainer {
+        padding-left: 2rem;
     }
 }
