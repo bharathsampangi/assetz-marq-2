@@ -1,0 +1,32 @@
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logoHeader {
+    height: 8vmin;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0;
+    flex: .8;
+}
+
+.navigation ul {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+
+.link {
+    font-size: calc(10px + .65vmin);
+    cursor: pointer;
+}
+
+.logo {
+    height: 4vmin;
+}

@@ -1,0 +1,137 @@
+.hero {
+    background-image: url("/images/Marq-banner_1920x1077-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 80vh;
+    position: relative;
+}
+
+.heroText {
+    color: #fff;
+    background-color: rgba(25,84,75,0.7);
+    padding: 1rem 2rem 1rem 8%;
+    position: absolute;
+    top: 50%;
+}
+
+.heroText h1{
+    font-family: 'Archivo', sans-serif;
+    font-size: calc(10px + 3vmin);
+    text-rendering: optimizeLegibility;
+}
+
+.heroText p{
+    font-size: calc(10px + 1vmin);
+    font-weight: 300;
+}
+
+.boxContainer {
+    display: none;
+}
+
+.hero2Container {
+    background-color: var(--color-primary-dark);
+}
+
+.hero2 {
+    max-width: 1200px;
+    margin: 0 auto;
+    min-height: 50vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.hero2Image {
+    align-self: center;
+    max-width: 100%;
+    height: auto;
+    grid-column: 1 / span 2;
+}
+
+.hero2TextContainer {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding-left: 2rem;
+}
+
+.hero2Text1 {
+    border: 1px solid #fff;
+    padding: calc(10px + 1vmin);
+}
+
+.hero2Text1 h2 {
+    font-size: calc(10px + 1.5vmin);
+}
+
+.hero2Text2 h2 {
+    font-size: calc(10px + 2.5vmin);
+}
+
+.hero2Text2 h3 {
+    font-size: calc(10px + 1.25vmin);
+}
+
+.hero2Text3 p {
+    font-size: calc(10px + .25vmin);
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+@media screen and (min-width: 600px) {
+    .boxContainer {
+        position: absolute;
+        bottom: 2%;
+        left: 20%;
+        color: #fff;
+        display: flex;
+    }
+    
+    .box {
+        border: 1px solid #fff;
+        padding: calc(10px + 1vmin) calc(10px + 4vmin);
+        height: 15vmin;
+        width: 30vmin;
+        max-height: 150px;
+        max-width: 350px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        position: relative;
+        cursor: pointer;
+    }
+    
+    .box p {
+        font-size: calc(10px + .75vmin);
+        font-weight: 300;
+    }
+    
+    .box:hover {
+        color: #000;
+        background: #fff;
+    }
+    
+    .box:hover::before {
+        border-top: 1px solid #000;
+    }
+    
+    .number {
+        position: absolute;
+        top: 10%;
+        left: 5%;
+        font-size: calc(10px + .25vmin);
+    }
+    
+    .box:not(:first-child) {
+        border-left: none;
+    }
+    
+    .box::before {
+        display: block;
+        content: '';
+        border-top: 1px solid #fff;
+        padding-bottom: calc(10px + 1vmin);
+    }
+}
