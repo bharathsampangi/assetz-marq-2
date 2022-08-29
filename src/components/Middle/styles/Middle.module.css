@@ -44,3 +44,16 @@
 .video {
     align-self: center;
 }
+
+.videoDesktop {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .videoMobile {
+        display: none;
+    }
+    .videoDesktop {
+        display: block;
+    }
+}

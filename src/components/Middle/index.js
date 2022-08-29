@@ -21,9 +21,17 @@ const Middle = () => {
                 </div>
             </div>
             <div className={styles.video}>
-                <iframe 
+                <iframe className={styles.videoDesktop}
                     width="818" 
                     height="460" 
+                    src="https://www.youtube.com/embed/17CLxxZf6a8" 
+                    title="YouTube video player" frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+                </iframe>
+                <iframe className={styles.videoMobile}
+                    width="380" 
+                    height="250" 
                     src="https://www.youtube.com/embed/17CLxxZf6a8" 
                     title="YouTube video player" frameborder="0" 
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
