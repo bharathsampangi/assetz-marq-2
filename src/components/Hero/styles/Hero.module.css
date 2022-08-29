@@ -36,7 +36,7 @@
 .hero2 {
     max-width: 1200px;
     margin: 0 auto;
-    min-height: 50vh;
+    min-height: 60vh;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
@@ -74,12 +74,12 @@
 }
 
 .hero2Text3 p {
-    font-size: calc(10px + .25vmin);
-    text-transform: uppercase;
+    font-size: calc(10px + .45vmin);
     font-style: italic;
+    font-weight: 300;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 769px) {
     .boxContainer {
         position: absolute;
         bottom: 2%;

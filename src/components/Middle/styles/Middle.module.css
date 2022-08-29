@@ -1,0 +1,46 @@
+.middleContainer {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding: calc(10px + 1vmin) 0;
+    gap: calc(10px + 2vmin);
+}
+
+.image {
+    max-width: 1000px;
+}
+
+.textContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.header {
+    grid-column: 2 / span 3;
+}
+
+.header h1 {
+    font-size: calc(10px + 5vmin);
+    line-height: calc(10px + 5vmin);
+    font-family: 'NimbusRomNo9L';
+    color: var(--color-primary-dark);
+}
+
+.borderBottom {
+    margin-top: calc(10px + 3vmin);
+    background: #959595;
+    height: 3px;
+    width: 90px;
+}
+
+.text {
+    color: #959595;
+    padding-top: calc(10px + 3.5vmin);
+    font-size: calc(10px + .35vmin);
+    font-style: italic;
+}
+
+.video {
+    align-self: center;
+}

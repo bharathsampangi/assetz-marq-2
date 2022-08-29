@@ -1,0 +1,71 @@
+.township {
+    display: flex;
+    gap: calc(10px + 2vmin);
+    margin: calc(10px + 10vmin) 0;
+}
+
+.townshipImage {
+    flex: 1;
+    padding-top: calc(10px + 5vmin);
+}
+
+.townshipImage img {
+    width: 100%;
+    max-width: 100%;
+}
+
+.townshipText {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    color: var(--color-primary-dark);
+}
+
+.header h1 {
+    font-size: calc(10px + 5vmin);
+    line-height: calc(10px + 5vmin);
+    font-family: 'NimbusRomNo9L';
+}
+
+.borderBottom {
+    margin-top: calc(10px + 3vmin);
+    background: #959595;
+    height: 3px;
+    width: 90px;
+}
+
+.textBox {
+    color: #959595;
+    padding-left: calc(10px + 5vmin);
+}
+
+.textBox p {
+    padding-top: calc(10px + 7.5vmin);
+    font-size: calc(10px + .35vmin);
+    font-style: italic;
+}
+
+.button {
+    margin-top: calc(10px + 7.5vmin);
+    font-size: calc(10px + .05vmin);
+    border: none;
+    color: #959595;
+    background-color: #fff;
+    text-transform: uppercase;
+    position: relative;
+    padding: calc(10px + .05vmin) calc(10px + 1vmin);
+    cursor: pointer;
+}
+
+.button::after {
+    position: absolute;
+    bottom: 0%;
+    left: 100%;
+    display: block;
+    content: "";
+    width: 15px;
+    border-bottom: 2px solid #959595;
+}
