@@ -3,6 +3,7 @@ import Hero from "../Hero"
 import Township from "../Township"
 import Middle from "../Middle"
 import Gallery from "../Gallery"
+import Preview from "../Preview"
 
 const Home = () => {
     return (
@@ -11,6 +12,7 @@ const Home = () => {
             <Township />
             <Middle />
             <Gallery />
+            <Preview />
         </>
     )
 }
