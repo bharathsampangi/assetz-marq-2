@@ -5,6 +5,7 @@
 }
 
 .logoHeader {
+    display: none;
     height: 8vmin;
 }
 
@@ -12,8 +13,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1rem 0;
-    flex: .8;
+    padding: 1rem .25rem;
+    flex: 1;
 }
 
 .navigation ul {
@@ -29,4 +30,14 @@
 
 .logo {
     height: 4vmin;
+}
+
+@media screen and (min-width: 768px) {
+    .navigation {
+        flex: .8;
+    }
+
+    .logoHeader {
+        display: block;
+    }
 }
