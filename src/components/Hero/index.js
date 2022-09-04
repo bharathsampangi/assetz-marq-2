@@ -1,7 +1,7 @@
 import React from "react"
 import styles from "./styles/Hero.module.css"
 
-const Hero = () => {
+const Hero = ({ scrollTo }) => {
     return (
         <>
             <section className={styles.hero}>
@@ -15,7 +15,7 @@ const Hero = () => {
                         <span className={styles.number}>01</span>
                         <p>Location</p>
                     </div>
-                    <div className={styles.box}>
+                    <div className={styles.box} onClick={() => scrollTo('gallery')}>
                         <span className={styles.number}>02</span>
                         <p>Gallery</p>
                     </div>

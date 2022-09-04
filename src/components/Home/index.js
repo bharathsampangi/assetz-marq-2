@@ -6,9 +6,15 @@ import Gallery from "../Gallery"
 import Preview from "../Preview"
 
 const Home = () => {
+
+    const scrollTo = (to) => {
+        const section = document.querySelector(`#${to}`);
+        section.scrollIntoView( { behavior: 'smooth', block: 'start' } );
+    }
+
     return (
         <>
-            <Hero />
+            <Hero scrollTo={scrollTo} />
             <Township />
             <Middle />
             <Gallery />
