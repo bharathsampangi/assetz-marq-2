@@ -4,6 +4,7 @@ import Township from "../Township"
 import Middle from "../Middle"
 import Gallery from "../Gallery"
 import Preview from "../Preview"
+import Location from "../Location"
 
 const Home = () => {
 
@@ -19,6 +20,7 @@ const Home = () => {
             <Middle />
             <Gallery />
             <Preview />
+            <Location />
         </>
     )
 }
