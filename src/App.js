@@ -5,11 +5,19 @@ import Home from './components/Home';
 import Navigation from './components/Navigation';
 
 function App() {
+  const scrollTo = (to) => {
+    const section = document.querySelector(`#${to}`);
+    section.scrollIntoView( { behavior: 'smooth', block: 'start' } );
+  }
   return (
     <Router>
-      <Navigation />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={
+          <>
+            <Navigation scrollTo={scrollTo} />
+            <Home scrollTo={scrollTo} /> 
+          </>
+        }/>
       </Routes>
     </Router>
   );

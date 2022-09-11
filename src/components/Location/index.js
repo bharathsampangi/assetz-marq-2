@@ -3,7 +3,7 @@ import styles from "./styles/Location.module.css"
 
 export default function Location() {
     return (
-        <section>
+        <section id="location">
             <div className={styles.container} >
                 <div className={styles.textContainer}>
                     <div className={styles.header}>

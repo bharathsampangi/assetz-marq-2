@@ -11,7 +11,7 @@ const Hero = ({ scrollTo }) => {
                     <p>We breathe the air you travel for</p>
                 </div>
                 <div className={styles.boxContainer}>
-                    <div className={styles.box}>
+                    <div className={styles.box} onClick={() => scrollTo('location')}>
                         <span className={styles.number}>01</span>
                         <p>Location</p>
                     </div>

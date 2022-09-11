@@ -21,6 +21,7 @@
 .contactContainer {
     margin: calc(10px + 5vmin) 0 0;
     display: flex;
+    flex-direction: column;
 }
 
 .contactContainer > * {
@@ -95,4 +96,10 @@
     border: 1px solid #1a1a1a;
     font-weight: 100;
     border-radius: 4px;
+}
+
+@media screen and (min-width: 600px) {
+    .contactContainer {
+        flex-direction: row;
+    }
 }

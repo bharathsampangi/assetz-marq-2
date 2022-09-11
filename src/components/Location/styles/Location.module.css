@@ -2,7 +2,7 @@
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     padding: calc(10px + 7.5vmin) 0 0;
     gap: calc(10px + 2vmin);
 }
@@ -67,4 +67,10 @@
     height: auto;
     max-width: 600px;
     object-fit: cover;
+}
+
+@media screen and (min-width: 600px) {
+    .container {
+        flex-direction: row;
+    }
 }

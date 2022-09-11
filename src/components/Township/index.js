@@ -3,7 +3,7 @@ import styles from "./styles/Township.module.css"
 
 const Township = () => {
     return (
-        <section className={styles.township}>
+        <section className={styles.township} id="township">
             <div className={styles.townshipImage}>
                 <img alt="Township" src="/images/TWCH.jpg" />
             </div>
