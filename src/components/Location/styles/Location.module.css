@@ -3,12 +3,12 @@
     margin: 0 auto;
     display: flex;
     flex-direction: row;
-    padding: calc(10px + 7.5vmin) 0;
+    padding: calc(10px + 7.5vmin) 0 0;
     gap: calc(10px + 2vmin);
 }
 
 .textContainer {
-    
+    flex: 1fr;
 }
 
 .header {
@@ -58,7 +58,7 @@
 }
 
 .location {
-    width: 50%;
+    flex: 1fr;
     height: auto;
 }
 

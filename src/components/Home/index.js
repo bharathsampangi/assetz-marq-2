@@ -5,6 +5,7 @@ import Middle from "../Middle"
 import Gallery from "../Gallery"
 import Preview from "../Preview"
 import Location from "../Location"
+import Contact from "../Contact"
 
 const Home = () => {
 
@@ -21,6 +22,7 @@ const Home = () => {
             <Gallery />
             <Preview />
             <Location />
+            <Contact />
         </>
     )
 }
