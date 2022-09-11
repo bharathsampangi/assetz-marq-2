@@ -1,0 +1,33 @@
+.footer {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding-bottom: calc(10px + 1vmin);
+}
+
+.footerOne {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    color: var(--color-light-gray);
+}
+
+.footerColumn1 > img {
+    height: 80px;
+}
+
+.footerColumn2 {
+    grid-column: 2 / span 1;
+    justify-self: center;
+    align-self: flex-end;
+}
+
+.footerColumn3 {
+    justify-self: flex-end;
+}
+
+.email {
+    color: var(--color-primary-dark);
+}
+
+.footerTwo {
+    color: var(--color-light-gray);
+}
