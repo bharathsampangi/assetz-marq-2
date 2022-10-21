@@ -30,12 +30,12 @@ const Hero = ({ scrollTo }) => {
                     <img className={styles.hero2Image} src="/images/green-worldmap.jpg" alt="Map" />
                     <div className={styles.hero2TextContainer}>
                         <div className={styles.hero2Text1}>
-                            <h2>Marq 3.0</h2>
-                            <h2>30% park space</h2>
+                            <span>Marq 3.0</span><br/>
+                            <span>30% park space</span>
                         </div>
                         <div className={styles.hero2Text2}>
-                            <h3>Join the</h3>
-                            <h2>Park People</h2>
+                            <span>Join the</span><br/>
+                            <span>Park People</span>
                         </div>
                         <div className={styles.hero2Text3}>
                             <p>With homes that have more park</p>

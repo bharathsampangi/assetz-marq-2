@@ -35,7 +35,7 @@ export default function Contact() {
                 <div className={styles.address}>
                     <div className={styles.addressBox}>
                         <img src="/images/contact-assetz.png" alt="Assetz" />
-                        <h3>Assetz Property Group</h3>
+                        <span>Assetz Property Group</span><br/>
                         <p>
                             No.30 Crescent Road, Bengaluru,<br/>
                             Bengaluru – 560 001.

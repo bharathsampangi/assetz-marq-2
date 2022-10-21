@@ -78,7 +78,8 @@
     padding-bottom: calc(10px + 4vmin);
 }
 
-.addressBox h3 {
+.addressBox span {
+    font-weight: bold;
     font-size: calc(10px + .65vmin);
 }
 

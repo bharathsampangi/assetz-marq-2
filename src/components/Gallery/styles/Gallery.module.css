@@ -3,12 +3,13 @@
     margin: calc(10px + 7.5vmin) auto;
 }
 
-.container h2 {
+.container span {
     color: var(--color-primary-dark);
     font-size: 2.25rem;
     padding-bottom: 1rem;
     text-transform: uppercase;
     text-align: center;
+    font-weight: bold;
 }
 
 .textContainer {

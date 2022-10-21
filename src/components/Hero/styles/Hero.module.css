@@ -61,16 +61,19 @@
     padding: calc(10px + 1vmin);
 }
 
-.hero2Text1 h2 {
+.hero2Text1 span {
+    font-weight: bold;
     font-size: calc(10px + 1.5vmin);
 }
 
-.hero2Text2 h2 {
+.hero2Text2 span {
+    font-weight: bold;
     font-size: calc(10px + 2.5vmin);
 }
 
-.hero2Text2 h3 {
+.hero2Text2 span {
     font-size: calc(10px + 1.25vmin);
+    font-weight: bold;
 }
 
 .hero2Text3 p {
