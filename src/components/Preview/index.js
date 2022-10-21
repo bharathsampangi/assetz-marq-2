@@ -6,11 +6,11 @@ export default function Preview() {
         <section className={styles.container}>
             <div className={styles.textContainer}>
                 <div className={styles.header}>
-                    <h1>
+                    <span>
                         A preview<br/>
                         of life's coming<br/>
                         attractions.<br/>
-                    </h1>
+                    </span>
                     <div className={styles.borderBottom}></div>
                     <p className={styles.text}>
                         Watch the video for a walk-through
@@ -34,7 +34,6 @@ export default function Preview() {
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                 allowFullScreen>
                 </iframe>
-                
             </div>
         </section>
     )

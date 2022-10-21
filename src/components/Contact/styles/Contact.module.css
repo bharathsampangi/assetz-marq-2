@@ -4,11 +4,12 @@
     padding: 0 0 calc(10px + 7.5vmin);
 }
 
-.header h1 {
+.header span {
     font-size: calc(10px + 5vmin);
     line-height: calc(10px + 5vmin);
     font-family: 'NimbusRomNo9L';
     color: var(--color-primary-dark);
+    font-weight: bold;
 }
 
 .borderBottom {
